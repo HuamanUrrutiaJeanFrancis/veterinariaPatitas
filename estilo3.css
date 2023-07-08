@@ -1,0 +1,277 @@
+
+/*
+Importa el tipo de letra de Google Fonts,
+el tipo de letra que usamos es:
+'Playfair Display'
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+button {
+  border: none;
+  background: #BF9C78;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+header {
+  height: 168px;
+  text-align: center;
+}
+
+
+
+#area-logo {
+  height: 75px;
+}
+
+#area-logo .grande {
+  font-size: 40px;
+}
+
+#area-logo .pequenio {
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 15px;
+}
+
+#area-menu {
+  height: 93px;
+}
+
+#area-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* menu */
+#area-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* menu - opciones */
+#area-menu li {
+  float: left;
+  margin-left: 10px;
+}
+
+#area-menu li a {
+  color: black;
+  text-decoration: none;
+  font-family: Arial;
+}*/
+
+/* contenido de la pagina */
+article {
+  min-height: 1200px;
+  background: wheat;
+}
+
+/* banner principal */
+.banner {
+  position: relative;
+  height: 600px;
+  background: url(pet8.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.banner .estrellas {
+  font-size: 25px;
+}
+
+.banner .bienvenido {
+  font-size: 25px;
+}
+
+.banner h1 {
+  font-size: 45px;
+  line-height: 15px;
+}
+
+.banner .slogan {
+  font-family: Arial;
+}
+
+#formulario-disponibilidad {
+  position: absolute;
+  background: white;
+  width: 70%;
+  height: 200px;
+  margin: auto;
+  bottom: -100px;
+  right: 0;
+  left: 0;
+  box-shadow: 0 10px 20px gray;
+  text-align: left;
+}
+
+#formulario-disponibilidad .fila1,
+#formulario-disponibilidad .fila2 {
+  height: 100px;
+}
+
+#formulario-disponibilidad .fila1 .columna {
+  float: left;
+  padding: 30px;
+  width: 49.5%;
+}
+
+#formulario-disponibilidad .fila2 .columna {
+  float: left;
+  padding: 0 30px 0 30px;
+  width: 33.3%;
+}
+
+#formulario-disponibilidad label {
+  font-family: Arial;
+  display: block;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+#formulario-disponibilidad input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  background: #F8F8F8;
+}
+
+
+
+#contenido .machupicchu {
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+#contenido .machupicchu h2 {
+  font-size: 45px;
+  line-height: 15px;
+}
+
+#contenido .machupicchu .columna {
+  width: 500px;
+  padding: 20px;
+  text-align: justify;
+}
+
+#contenido .machupicchu img {
+  width: 100%;
+}
+
+#contenido .contenedor-productos {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  width: 100%;
+  background: white;
+}
+
+#contenido .contenedor-productos .titulo h2 {
+  line-height: 15px;
+  font-size: 45px;
+}
+
+#contenido .contenedor-productos .titulo {
+  text-align: center;
+}
+
+#contenido .productos {
+  display: flex;
+  justify-content: center;
+}
+
+#contenido .productos .columna {
+  width: 300px;
+  padding: 5px;
+  min-height: 100px;
+}
+
+#contenido .productos img {
+  width: 100%;
+}
+
+#contenido .productos h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+#contenido .productos p.area-precio {
+  margin-top: 0;
+}
+
+#contenido .productos .simbolo {
+  font-size: 16px;
+}
+
+#contenido .productos .precio {
+  font-size: 50px;
+}
+
+#contenido .productos ul {
+  font-family: Arial;
+}
+
+.clearfix {
+  clear: both;
+}
+
+footer {
+  background: #161616;
+  height: 390px;
+  color: white;
+}
+
+footer .columna {
+  width: 33.3%;
+  min-height: 100px;
+  float: left;
+}
+
+footer .columna.primera {
+  padding-top: 55px;
+  padding-left: 25px;
+}
+
+footer .columna.primera .grande {
+  font-size: 40px;
+}
+
+footer .columna.primera .pequenio {
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 15px;
+}
+
+footer .columna.primera p {
+  font-family: Arial;
+  color: gray;
+}
+
+footer .columna.tercera {
+  padding-top: 50px;
+}
+
+footer .columna.tercera h2 {
+  font-size: 20px;
+  font-family: Arial;
+}
